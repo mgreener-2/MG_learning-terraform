@@ -24,7 +24,8 @@ resource "aws_instance" "web" {
   tags = {
     Name = "HelloWorld"
   }
-}
+
+
 
 data "aws_vpc" "Default" {
   Default = true
